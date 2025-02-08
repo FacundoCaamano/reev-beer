@@ -1,0 +1,25 @@
+.navbar-nav{
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+#navbarSupportedContent{
+    justify-content: flex-end;
+    padding: 20px 200px 20px 0; 
+}
+.titleWeb{
+    padding: 20px 0px 0 200px; 
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .titleWeb{
+        padding: 20px ; 
+        font-size: 1.5rem;
+    }
+    #navbarSupportedContent{
+        justify-content: flex-end;
+        padding: 0;
+    }
+}
