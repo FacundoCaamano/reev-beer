@@ -1,1 +1,11 @@
-<p>cervezas works!</p>
+<div class="beers">
+    <div class="beer__element" *ngFor="let beer of beers" #beerElement>
+        <div>
+            <img class="beer__element--img" [src]="beer.img" alt="">
+        </div>
+        <div>
+            <p class="beer__text">Beer {{ beer.id }}</p>
+        </div>
+        <button class="beer__button">Ver mas</button>
+    </div>
+</div>
