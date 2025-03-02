@@ -53,7 +53,7 @@
 
 .nosotros {
     background-color: white;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,9 +109,15 @@
                 font-size: 2rem;
             }
         }
+        .nosotros--img__card.beer{
+           left: 90%;
+           bottom: -110px; 
+        }
     }
 }
-
+.nosotros--img__content--img2{
+    height: 500px;
+}
 .galeria {
     background-color: white;
     display: flex;
